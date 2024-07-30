@@ -1,0 +1,5 @@
+<form method="POST" action="{{ url_for('otp_verification', user_id=user_id) }}">
+    <label for="otp">Enter OTP:</label>
+    <input type="text" id="otp" name="otp" required>
+    <button type="submit">Verify</button>
+</form>
